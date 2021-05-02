@@ -31,3 +31,5 @@
 - tail -n 20 archivo.txt .- muestra ñas ultimas 20 lineas del archivo.
 
 - less archivo.txt .- interfaz amigable para explorar el archivo.
+
+# Definicion de un Comando
