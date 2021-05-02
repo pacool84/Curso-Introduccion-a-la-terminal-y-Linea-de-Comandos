@@ -32,4 +32,21 @@
 
 - less archivo.txt .- interfaz amigable para explorar el archivo.
 
-# Definicion de un Comando
+# Definición de un Comando
+
+- Puede ser un programa ejecutable.
+- Un comando de utilidad de la shell.
+- Una función de shell.
+- Un alias.
+
+* type cd .- Nos muestra el tipo de comando de las 4 opciones anteriores.
+
+* alias l="ls -alt" .- Crea un comando, sin embargo son temporales.
+
+* help cd .- Muestra la ayuda para los comandos.
+
+* man cd .- Muestra el manual del comando necesitado.
+
+* info cd .- Muy similar al de "man".
+
+* whatis cd .- Muestra una breve descripcion de lo que hace el comando.
