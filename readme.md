@@ -50,3 +50,13 @@
 * info cd .- Muy similar al de "man".
 
 * whatis cd .- Muestra una breve descripcion de lo que hace el comando.
+
+# Wildcards
+
+- ls \*.txt .- Muestra TODOS los archivos que terminen en .txt.
+
+- ls datos\* .- Muestra TODOS los archivos que empiecen con el nombre de datos.
+
+* ls datos? .- Muestra TODOS los archivos que empiecen con datos Y que solamente tengan UN caracter al final.
+
+* ls datos??? .- Muestra TODOS los archivos que empiecen con datos Y que tengan 3 caracteres al final.
