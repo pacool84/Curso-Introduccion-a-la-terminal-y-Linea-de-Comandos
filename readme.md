@@ -60,3 +60,21 @@
 * ls datos? .- Muestra TODOS los archivos que empiecen con datos Y que solamente tengan UN caracter al final.
 
 * ls datos??? .- Muestra TODOS los archivos que empiecen con datos Y que tengan 3 caracteres al final.
+
+# Redirecciones
+
+- ls Pictures > misarchivos.txt .- Redirecciona todas las imagenes hacia el archivo seleccionado, en caso de que no exista lo creara en automatico, el simbolo ">" no concatena y sobre escribe el contenido.
+
+- ls Downloads >> misarchivos.txt .- Redirecciona todos los archivos del directorio Downloads hacia el archivo seleccionado, aqui CONCATENA los datos y no los sobre escribe.
+
+# Redirecciones Pipe Operator
+
+- echo "Hola mundo" .- Genera un stdoutput en la consola de lo que se le escriba.
+
+- cat archivo1.txt archivo2.txt .- Muestra de forma concatenada el contenido de los archivos seleccionados.
+
+## El pipe operator transforma el stdoutput en stdinput de un comando
+
+- ls -lh | less .- Realiza el listado de archivos y los muestra en less.
+
+* cowsay "Hola Mundo" | lolcat
